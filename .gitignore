@@ -1,0 +1,12 @@
+# MCP credentials — never commit
+.mcp.json
+
+# Claude local overrides — personal, not shared
+.claude/CLAUDE.local.md
+.claude/settings.local.json
+
+# Agent memory is generated at runtime
+.claude/agent-memory/
+
+# OS
+.DS_Store
