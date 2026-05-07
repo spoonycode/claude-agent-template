@@ -84,4 +84,4 @@ Confluence documentation and agent-memory entries that this workflow consumes.
 6. **Security review** — delegate to `/security-tester` if auth, input, or data storage was touched
 7. **Definition of Done** — run `/definition-of-done`; resolve any gaps before proceeding
 8. **Pull request** — open a PR to `main`; never merge directly
-9. **Jira** — transition the ticket to Done only after PR is merged and DoD is fully met
+9. **Jira** — transition the ticket to Done only after PR is created and DoD is fully met
