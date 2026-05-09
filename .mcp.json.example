@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "jira": {
+      "command": "mcp-atlassian",
+      "args": [],
+      "env": {
+        "JIRA_URL": "https://{{ATLASSIAN_SUBDOMAIN}}.atlassian.net",
+        "JIRA_USERNAME": "{{ATLASSIAN_EMAIL}}",
+        "JIRA_API_TOKEN": "{{ATLASSIAN_API_TOKEN}}",
+        "CONFLUENCE_URL": "https://{{ATLASSIAN_SUBDOMAIN}}.atlassian.net",
+        "CONFLUENCE_USERNAME": "{{ATLASSIAN_EMAIL}}",
+        "CONFLUENCE_API_TOKEN": "{{ATLASSIAN_API_TOKEN}}",
+        "JIRA_PROJECTS_FILTER": "{{JIRA_PROJECT}}",
+        "CONFLUENCE_SPACES_FILTER": "{{CONFLUENCE_SPACE}}"
+      }
+    }
+  }
+}

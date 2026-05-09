@@ -1,0 +1,15 @@
+# Local Project Configuration
+# Copy this file to CLAUDE.local.md and fill in your values.
+# CLAUDE.local.md is gitignored — never commit it.
+
+## Project Scope
+
+- Jira project: `AG`
+- Confluence space: `AG`
+- **Only create, read, edit, or comment on Jira issues and Confluence pages within these spaces.**
+  Never touch issues or pages belonging to a different project or space.
+
+## Jira Constraints
+
+- You may ONLY create, edit, transition, or comment on Jira issues assigned to `Agent-Claude-Controller`
+- Never modify, reassign, or action items belonging to other users

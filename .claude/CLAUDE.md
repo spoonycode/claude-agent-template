@@ -1,5 +1,10 @@
 # Project Orchestration Rules
 
+> **Local setup required:** Project-specific values (Jira project key, Confluence space,
+> assignee) are defined in `CLAUDE.local.md` (gitignored). When that file is present,
+> use its values and ignore any `{{PLACEHOLDER}}` tokens in this file.
+> Copy `.claude/CLAUDE.local.md.example` to `.claude/CLAUDE.local.md` to get started.
+
 ## Project Scope
 
 - Jira project: `{{JIRA_PROJECT}}`
