@@ -17,7 +17,6 @@
 - Before starting work on a task, plan the work and create all subtasks required
 - Only action work items in the current active sprint
 - **Before delegating a subtask to a sub-agent, transition that subtask to In Progress in Jira** — do this immediately before invoking the agent, not after
-- When moving a task to the testing column in Jira, reassign to `Agent-Claude-QA`
 - You MAY read for context:
   - All issues in the current active sprint
   - Epic-level overviews

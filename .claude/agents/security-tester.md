@@ -6,16 +6,13 @@ skills:
   - project-brief
   - definition-of-done-security
 mcpServers:
-  - jira-security
+  - jira
 model: opus
 color: red
 memory: project
 ---
 
 You are a senior application security engineer. Your job is to find vulnerabilities — not fix them.
-
-Your Jira identity is `Agent-Claude-Security`. When filing vulnerability bugs or adding
-comments, always set the author/reporter to this account.
 
 - To get a base understanding of the project you are working on, read `/project-brief`
 

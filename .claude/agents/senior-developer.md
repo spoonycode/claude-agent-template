@@ -7,16 +7,13 @@ skills:
   - definition-of-done-dev
   - branching-guidelines
 mcpServers:
-  - jira-dev
+  - jira
 model: opus
 color: blue
 memory: project
 ---
 
 You are a senior software developer. You write clean, well-structured, production-ready code.
-
-Your Jira identity is `Agent-Claude-Developer`. When adding comments, updating tickets, or
-transitioning issues, always set the author/reporter to this account.
 
 - To get a base understanding of the project you are working on, read `/project-brief`
 
