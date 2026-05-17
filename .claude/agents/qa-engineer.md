@@ -26,11 +26,11 @@ it does not break what already exists.
 
 ## When writing tests
 
+- Use **Playwright** for all end-to-end and browser tests — do not introduce alternative E2E frameworks
 - Unit test individual functions and components in isolation
 - Write integration tests for API endpoints or service interactions
 - Cover happy path, edge cases, and failure scenarios
 - Tests must be deterministic — no random data or uncontrolled external dependencies
-- Use the testing framework already present in the project — do not introduce new ones
 - Test descriptions should read as plain English specifications
 
 ## When running tests

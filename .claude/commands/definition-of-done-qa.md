@@ -16,5 +16,5 @@ The QA engineer's portion of DoD. You own test validation; do not fix code — f
 - Ambiguous or untestable criteria flagged on the Jira ticket before proceeding
 
 ### Reporting
-- Test results summarised in a Jira comment (pass count, fail count, coverage delta)
+- Test results summarised in the PR description or branch notes (pass count, fail count, coverage delta)
 - Any bugs found filed as Jira tickets with clear reproduction steps

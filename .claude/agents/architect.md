@@ -61,7 +61,7 @@ For every epic, create or update a Confluence page under the project's architect
 
 ## After completing
 
-1. Add a Jira comment on the epic linking to the Confluence page
+1. Add a remote branch/Confluence link on the epic in Jira — do not add a Jira comment
 2. Save key decisions to `.claude/agent-memory/architect/MEMORY.md` so the orchestrator
    and other agents can reference them without re-reading the full Confluence page
 3. Summarise what was decided and flag anything that needs human review or approval

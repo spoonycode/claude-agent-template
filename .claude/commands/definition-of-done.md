@@ -6,13 +6,13 @@ A task is only complete when every role has signed off on its portion.
 - [ ] Feature works per acceptance criteria, no regressions
 - [ ] Code quality checks pass (linter, no dead code, no debug statements)
 - [ ] Documentation updated where needed
-- [ ] Jira ticket and Confluence updated
+- [ ] Jira ticket status updated; branch linked to the issue
 
 ### QA (`/qa-engineer`)
 - [ ] Unit and integration tests written and passing
 - [ ] Coverage did not decrease
 - [ ] All acceptance criteria have corresponding tests or verified behaviour
-- [ ] Test results summarised in Jira comment
+- [ ] Test results summarised in the PR description or branch notes
 
 ### Security (`/security-tester`) — if auth, input, or data storage was touched
 - [ ] OWASP Top 10 review completed

@@ -28,5 +28,5 @@ their sections yourself — just confirm the handoff happened.
 ### Handoff
 - QA has been delegated to run the test suite and validate acceptance criteria
 - Security review has been delegated if auth, input handling, or data storage was touched
-- Jira ticket status and comments are up to date
+- Jira ticket status is up to date; branch linked to the issue
 - Commit messages describe what changed and why
